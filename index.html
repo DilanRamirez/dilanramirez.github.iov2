@@ -13,9 +13,9 @@
     <title>Dilan Ramirez</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top navbar-shrink" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger text-white" href="#page-top">Dilan Ramirez</a>
+            <a class="navbar-brand js-scroll-trigger text-white" href="#profile">Dilan Ramirez</a>
             <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars"></i>
@@ -24,15 +24,15 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#activities">Activities</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="masthead bg-primary text-white text-center">
+    <header class="masthead bg-primary text-white text-center" id="profile">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Avatar Image-->
-            <img class="masthead-avatar mb-5" src="./src/images/profile.png" alt="" />
+            <img class="masthead-avatar mb-5" src="./src/images/portfolio/profile.png" alt="" />
             <!-- Masthead Heading-->
             <h1 class="masthead-heading text-uppercase mb-0">Welcome</h1>
             <br><br>
@@ -46,42 +46,42 @@
             <h2 class="page-section-heading text-center text-uppercase text-dark">Portfolio</h2>
             <div class="row">
                     <div class="card" style="width: 18rem;">
-                        <a href="#"><img class="card-img-top-armap" src="/src/images/armap_card.PNG" alt="Card image cap"></a>
+                        <a href="#"><img class="card-img-top-armap" src="/src/images/portfolio/armap_card.PNG" alt="Card image cap"></a>
                         <div class="card-body">
                             <h5>ARMAP</h5>
                             <p class="card-text">Hundreds of project locations and ship tracks are shown on the interactive web map.</p>
                          </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <a href="#"><img class="card-img-top-armap" src="/src/images/aov_card.png" alt="Card image cap"></a>
+                        <a href="#"><img class="card-img-top-armap" src="/src/images/portfolio/aov_card.png" alt="Card image cap"></a>
                         <div class="card-body">
                             <h5>AOV</h5>
                             <p class="card-text">Web mapping application to better plan, coordinate, and achieve monitoring objectives.</p>
                         </div>
                     </div>
                     <div class="card" style="width: 18rem;">
-                        <a href="#"><img class="card-img-top-astral" src="/src/images/astral_card.png" alt="Card image cap"></a>
+                        <a href="#"><img class="card-img-top-astral" src="/src/images/portfolio/astral_card.png" alt="Card image cap"></a>
                         <div class="card-body">
                             <h5>ASTRAL</h5>
                             <p class="card-text">Web mapping application to enhance the discovery, visualization, and sharing of hyperspectral reflectance data.</p>
                         </div>
                     </div> 
                     <div class="card" style="width: 18rem;">
-                        <a href="#"><img class="card-img-top-irrigation" src="/src/images/irrigationApp_card.png" alt="Card image cap"></a>
+                        <a href="#"><img class="card-img-top-irrigation" src="/src/images/portfolio/irrigationApp_card.png" alt="Card image cap"></a>
                         <div class="card-body">
                             <h5>Irrigation App</h5>
                             <p class="card-text">The irrigation app wants to keep track and get better the crop wellness using geospatial data.</p>
                         </div>
                     </div> 
                     <div class="card" style="width: 18rem;">
-                        <a href="#"><img class="card-img-top-sel" src="/src/images/selLogo_card.png" alt="Card image cap"></a>
+                        <a href="#"><img class="card-img-top-sel" src="/src/images/portfolio/selLogo_card.png" alt="Card image cap"></a>
                         <div class="card-body-sel">
                             <h5>SEL Website</h5>
                             <p class="card-text">Developing some novel technology, cyberinfrastructure, and ecoinformatics tools for environmental change.</p>
                         </div>
                     </div> 
                     <div class="card" style="width: 18rem;">
-                        <a href="#"><img class="card-img-top-medical" src="/src/images/medicalLogo_card.png" alt="Card image cap"></a>
+                        <a href="#"><img class="card-img-top-medical" src="/src/images/portfolio/medicalLogo_card.png" alt="Card image cap"></a>
                         <div class="card-body">
                             <h5>Medical Scheduler</h5>
                             <p class="card-text">prototype web-based system to help a medical office to schedule home visits</p>
@@ -102,30 +102,40 @@
             </div>
             <!-- About Section Button-->
             <div class="text-center mt-4">
-                <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
+                <a class="btn btn-xl btn-outline-light" href="/src/resume/DilanRamirez_Resume.pdf">
                     <i class="fas fa-download mr-2"></i>
                     Resume Download!
                 </a>
             </div>
         </div>
     </section>
-    <!-- Contact-->
-    <section class="contact-me">
+    <!-- Activities-->
+    <section class="activities" id="activities">
         <div class="container">
-            <h2 class="page-section-heading text-center text-uppercase text-dark">Contact Me</h2>
-            <form>
-                <div class="form-group">
-                    <label for="nameInput">Full Name</label>
-                    <input type="name" class="form-control" id="nameInput" aria-describedby="nameHelp" placeholder="Enter full name">
-                    <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+            <h2 class="page-section-heading text-center text-uppercase text-dark">Activities</h2>
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top-act1" src="/src/images/activities/playing_guitar.jpg" alt="Card image cap">
+                    <div class="card-body-act">
+                      <h5 class="card-title">Youth Adventist Leader</h5>
+                      <p class="card-text">Our mission is to guide young people to commit their hearts and lives to Jesus Christ. </p>
+                    </div>
                   </div>
-                <div class="form-group">
-                  <label for="emailInput">Email address</label>
-                  <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                <div class="card" style="width: 18rem;">
+                    <a href="#"><img class="card-img-top-act2" src="/src/images/activities/activity4.jpg" alt="Card image cap"></a>
+                    <div class="card-body-act">
+                        <h5>Advent Tea Club</h5>
+                        <p class="card-text">We look to share the love of god to our community, specially to the youth audience. </p>
+                    </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+                <div class="card" style="width: 18rem;">
+                    <a href="#"><img class="card-img-top-act3" src="/src/images/activities/adventurer.png" alt="Card image cap"></a>
+                    <div class="card-body-act">
+                        <h5>Adventurer Club</h5>
+                        <p class="card-text">Program to support parents in assisting children with the challenging task of developing fully as followers of Christ.</p>
+                    </div>
+                </div> 
+        </div>
         </div>
     </section>
     <footer class="footer">

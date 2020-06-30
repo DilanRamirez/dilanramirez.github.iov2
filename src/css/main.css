@@ -69,7 +69,7 @@
     margin-bottom: 3rem;
 }
 
-.contact-me{
+.activities{
     margin-bottom: 6rem;
     margin-top: 6rem;
 }
@@ -87,6 +87,24 @@
         margin-left: auto;
         margin-right: auto;
     }
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active {
+  color: #1abc9c;
+}
+
+@media (min-width: 992px){
+  #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
+    color: #fff;
+    background: #1abc9c;
+  }
+}
+
+@media (min-width: 992px){
+#mainNav.navbar-shrink {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
 
 ::-webkit-scrollbar {

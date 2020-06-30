@@ -99,9 +99,10 @@
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 38%;
+  width: 55%;
   text-align: center;
 }
+
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: #1abc9c;

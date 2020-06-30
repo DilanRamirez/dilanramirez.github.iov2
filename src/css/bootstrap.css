@@ -208,3 +208,7 @@ card-img, .card-img-top-act3 {
     min-height: 1px;
     padding: 1.25rem;
 }
+
+a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+    background-color: #334252!important;
+}

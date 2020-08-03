@@ -101,6 +101,14 @@
   margin-right: auto;
 }
 
+.sun {
+  position: relative;
+  width: 30% !important;
+  height: 30% !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
